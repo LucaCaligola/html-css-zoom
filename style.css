@@ -13,6 +13,8 @@ body {
 
 main {
     width: 1420px;
+    margin: 55px;
+    
    
 
 
@@ -20,11 +22,10 @@ main {
 
 .screen {
     color: white;
-    width: calc(100% / 8);
+    width: 197px;
     height: 130px;
     border: solid white;
     display: inline-block;
-    
-    
-   
+    background-image: url(img/cat2.jpg);
+    object-fit:contain;
 }
