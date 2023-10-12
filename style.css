@@ -4,3 +4,27 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    width: 100vh;
+    background-color: black;
+    
+}
+
+main {
+    width: 1420px;
+   
+
+
+}
+
+.screen {
+    color: white;
+    width: calc(100% / 8);
+    height: 130px;
+    border: solid white;
+    display: inline-block;
+    
+    
+   
+}
