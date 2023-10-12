@@ -12,10 +12,11 @@ body {
 }
 
 main {
-    max-width: 1420px;
+    max-width: 100%;
     display: flex;
     flex-wrap:wrap;
-    margin: 60px;
+    padding:60px;
+    position: relative;
     
    
 
@@ -26,8 +27,42 @@ main {
     color: white;
     width: 190px;
     height: 120px;
-    margin: 3px 3px;
+    margin: 5px 3px;
     background-image: url(img/view.jpeg);
     object-fit:cover;
+    position: relative;
 
+}
+
+.view {
+    color: white;
+    background-color: rgba(211, 211, 211, 0.321);
+    position: absolute;
+    top: 10px;
+    padding: 3px 5px;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+.position-speaker {
+    right: 28px;
+}
+
+
+.position-x {
+    right: 5px
+}
+
+
+.personal {
+
+    
+    background-color: rgba(128, 128, 128, 0.597);
+    padding: 3px 5px;
+    border-radius: 1px;
+}
+
+.first-column-primo {
+    position: absolute;
+    bottom: 0;
 }
