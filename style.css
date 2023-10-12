@@ -69,11 +69,15 @@ footer {
 }
 
 .box {
+    height: 40px;
+    width: 60px;
+    margin: 10px 5px 10px 5px 
+}
+
+.box-long {
     height: 50px;
     width: 60px;
-    margin: 10px 5px 10px 5px
-    
-    
+    margin: 10px 5px 10px 5px 
 }
 
 
@@ -90,4 +94,13 @@ footer {
     font-size: 12px;
     display: block;
     padding-top: 3px;
+}
+.flex {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+   
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
 }
